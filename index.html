@@ -19,8 +19,9 @@
   <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-  
+<link rel="stylesheet" href="aos/aos.css">  
   <link href="img/favicon.ico" rel="icon">
+  <script src="aos/aos.js"></script>
   
 </head>
 
@@ -111,7 +112,7 @@
 <Div class="pro">
 <div class="w3-row-padding">
   <div class="w3-third">
-    <div class="w3-card">
+    <div class="w3-card" data-aos="fade-right">
 	<div class="pro2">
       <img src="schoolbelt.jpg" class="image" id="belt" alt="belt">
       <div class="w3-container">
@@ -125,7 +126,7 @@
 </div>
 
    <div class="w3-third">
-    <div class="w3-card">
+    <div class="w3-card" data-aos="zoom-out">
 	<div class="pro2">
       <img src="imgs/school-tie.jpg" class="image" id="tie" alt="belt">
       <div class="w3-container">
@@ -140,7 +141,7 @@
   </div>
 
    <div class="w3-third">
-    <div class="w3-card">
+    <div class="w3-card" data-aos="fade-left">
 	<div class="pro2">
       <img src="imgs/school-socks1.jpg" class="image" id="socks" alt="belt">
       <div class="w3-container">
@@ -155,7 +156,7 @@
 </div>
 <div class="w3-row-padding w3-margin-top">
    <div class="w3-third">
-    <div class="w3-card">
+    <div class="w3-card" data-aos="fade-right">
 	<div class="pro2">
       <img src="imgs/school-tshirt.jpg" class="image" id="T-shirt" id="t-shirt" alt="belt">
       <div class="w3-container">
@@ -169,7 +170,7 @@
   </div>
 
    <div class="w3-third">
-    <div class="w3-card">
+    <div class="w3-card"data-aos="zoom-out">
 	<div class="pro2">
       <img src="imgs/school-badges2.jpg" class="image" id="bardges" alt="belt">
       <div class="w3-container">
@@ -183,7 +184,7 @@
   </div>
 
   <div class="w3-third">
-    <div class="w3-card">
+    <div class="w3-card" data-aos="fade-left">
 	<div class="pro2">
       <img src="imgs/school-medals.png" class="image" id="medals" alt="belt">
       <div class="w3-container">
@@ -246,7 +247,7 @@
  <Div class="address" id="contact">
  <h2>Contact Us</h2><br>
  <div class="mar">
- <img src="imgs/profile.jpg" alt="profile">
+ <img src="imgs/profile.jpg" alt="profile" data-aos="flip-right">
  <h2>C.R.Sundaravel</h2>
   <p class="title">CEO & Founder</p>
   </div>
@@ -276,6 +277,9 @@
   </div>
   </Div>
 <script>
+AOS.init({
+duration: 1200,
+})
 $(function(){
 	var	btn = $(".slider__btn");
 	
@@ -288,19 +292,5 @@ $(function(){
 	});
 });
 </script>
-	
-	<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/5b35b57fd0b5a54796824989/default';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
 </Body>
 </html>
